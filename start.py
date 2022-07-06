@@ -8,8 +8,8 @@ def log(log_text):
     log_file = open("log.txt", "a", encoding='utf-8')
     log_file.write(log_text + "\n")
     log_file.close()
-email = 'FastUptime'
-password = 'reset1reset1'
+email = 'mail' #Mail adresinizi giriniz
+password = 'pass'#Şifrenizi giriniz
 
 global_delay = 3
 driver = webdriver.Chrome()
